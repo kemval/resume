@@ -1,4 +1,4 @@
-* {
+ * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -214,6 +214,148 @@
             display: flex;
             justify-content: space-between;
             margin-bottom: 4px;
+        }
+        
+        /* Mobile Responsive Styles */
+        @media screen and (max-width: 768px) {
+            body {
+                font-size: 12px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            .name {
+                font-size: 22px;
+            }
+            
+            .title {
+                font-size: 16px;
+            }
+            
+            .contact {
+                font-size: 11px;
+                line-height: 1.5;
+            }
+            
+            .summary {
+                font-size: 13px;
+                line-height: 1.5;
+            }
+            
+            .section-title {
+                font-size: 16px;
+            }
+            
+            .links {
+                flex-wrap: wrap;
+                gap: 10px;
+                font-size: 11px;
+            }
+            
+            .job-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .job-dates {
+                font-size: 11px;
+                margin-top: 2px;
+            }
+            
+            .job-title {
+                font-size: 13px;
+            }
+            
+            .job-company {
+                font-size: 12px;
+            }
+            
+            .job-description li {
+                font-size: 12px;
+                line-height: 1.5;
+                margin-bottom: 6px;
+            }
+            
+            .education-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .degree {
+                font-size: 13px;
+            }
+            
+            .school {
+                font-size: 12px;
+            }
+            
+            .education-dates {
+                font-size: 11px;
+                margin-top: 2px;
+            }
+            
+            .project-title {
+                font-size: 13px;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+                gap: 8px;
+                font-size: 12px;
+            }
+            
+            .skill-category {
+                padding: 8px;
+            }
+            
+            .skill-category-title {
+                font-size: 13px;
+                margin-bottom: 6px;
+            }
+            
+            .skill-list li {
+                font-size: 12px;
+                margin-bottom: 4px;
+            }
+            
+            .two-column {
+                grid-template-columns: 1fr;
+                gap: 0;
+            }
+            
+            .languages {
+                font-size: 12px;
+            }
+            
+            .language-item {
+                margin-bottom: 6px;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .name {
+                font-size: 20px;
+            }
+            
+            .title {
+                font-size: 14px;
+            }
+            
+            .contact {
+                font-size: 10px;
+            }
+            
+            .links {
+                flex-direction: column;
+                align-items: center;
+                gap: 8px;
+            }
         }
         
         @media print {
